@@ -1,0 +1,66 @@
+########################
+# Python
+########################
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+########################
+# Virtual environments / uv
+########################
+.venv/
+*.venv/
+.env/
+.env.*/
+.python-version
+.uv/
+uv.lock
+
+########################
+# CMake / Ninja / compiled artifacts
+########################
+CMakeCache.txt
+CMakeFiles/
+cmake-build-*/
+_skbuild/
+*.cmake
+*.ninja
+.ninja_deps
+.ninja_log
+
+########################
+# CUDA / binary outputs
+########################
+*.so
+*.pyd
+*.dll
+*.lib
+*.exp
+*.obj
+*.o
+*.fatbin*
+
+########################
+# IDE / editor
+########################
+.vscode/
+.idea/
+*.iml
+*.swp
+*.swo
+*~
+
+########################
+# OS files
+########################
+.DS_Store
+Thumbs.db
