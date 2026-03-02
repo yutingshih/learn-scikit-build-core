@@ -25,13 +25,14 @@ Basic C++ extension module built with `pybind11` + `scikit-build-core`.
 - Layout:
   - `pyproject.toml`: minimal scikit-build-core configuration
   - `CMakeLists.txt`: declares the C++ extension target and install location
-  - `src/example.cpp`: simple C++ functions exposed to Python
+  - `example.cpp`: simple C++ functions exposed to Python
+  - `main.py`: small script that imports and exercises the extension
 - How to build and run:
 
 ```bash
 cd example1
 uv pip install -e .
-uv run -m pytest   # or import the built extension in Python
+uv run main.py
 ```
 
 ## Example 2: CUDA vector addition (`example2`)
